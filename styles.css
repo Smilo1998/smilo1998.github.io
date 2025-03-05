@@ -27,6 +27,7 @@
     justify-content: center;
     gap: 15px; /* Afstand mellem ikoner */
     margin-top: 20px;
+    background-color: rgb(18, 0, 107);
 }
 
 .social-media a {
