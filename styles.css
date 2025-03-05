@@ -1,4 +1,6 @@
 .topnav {
+    display: flex;
+    justify-content: center;
     background-color: rgb(18, 0, 107);
     overflow: hidden;
 }
