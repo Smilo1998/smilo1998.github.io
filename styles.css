@@ -27,7 +27,7 @@
     justify-content: center; /* Aligns icons horizontally */
     align-items: center;     /* Centers icons vertically (optional) */
     background-color: rgb(18, 0, 107);
-    height: 80px;            /* Adjust height as needed */
+    height: 50px;            /* Adjust height as needed */
     padding: 10px;
 }
 
