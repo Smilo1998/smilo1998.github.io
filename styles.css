@@ -16,3 +16,8 @@
     background-color: #ddd;
     color: rgb(29, 0, 62);
 }
+
+#profile-pic {
+    width: 100;
+    height: 150;
+}
