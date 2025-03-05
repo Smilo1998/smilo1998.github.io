@@ -21,3 +21,17 @@
     width: 300px;
     height: 450px;
 }
+
+.social-media {
+    background-color: rgb(18, 0, 107);
+    overflow: hidden;
+}
+
+.social-media a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
