@@ -28,8 +28,9 @@
 }
 
 .social-media a {
-    color: #fff;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
 }
