@@ -23,21 +23,6 @@
 }
 
 .social-media {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Afstand mellem ikoner */
-    margin-top: 20px;
     background-color: rgb(18, 0, 107);
-}
-
-.social-media a {
-    font-size: 24px; /* Størrelse på ikoner */
-    color: #ffffff; /* Standardfarve */
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-.social-media a:hover {
-    color: rgb(18, 0, 107); /* Blå farve ved hover */
-    background-color: #ddd;
+    overflow: hidden;
 }
