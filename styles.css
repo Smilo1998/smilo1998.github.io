@@ -23,14 +23,22 @@
 }
 
 .social-media {
+    display: flex;           /* Enables flexbox */
+    justify-content: center; /* Aligns icons horizontally */
+    align-items: center;     /* Centers icons vertically (optional) */
     background-color: rgb(18, 0, 107);
-    overflow: hidden;
+    height: 80px;            /* Adjust height as needed */
+    padding: 10px;
 }
 
 .social-media a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;  
+    display: inline-block;   /* Ensures links stay inline */
+    font-size: 30px;         /* Adjust icon size */
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;          /* Adds space between icons */
+}
+
+.social-media a:hover {
+    color: #f39c12; /* Change color on hover */
 }
