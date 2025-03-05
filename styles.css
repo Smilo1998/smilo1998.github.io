@@ -23,15 +23,20 @@
 }
 
 .social-media {
-    background-color: rgb(18, 0, 107);
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Afstand mellem ikoner */
+    margin-top: 20px;
 }
 
 .social-media a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    font-size: 24px; /* Størrelse på ikoner */
+    color: #ffffff; /* Standardfarve */
     text-decoration: none;
-    font-size: 17px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    color: rgb(18, 0, 107); /* Blå farve ved hover */
+    background-color: #ddd;
 }
