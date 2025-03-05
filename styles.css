@@ -30,6 +30,7 @@
 .social-media a {
     color: #fff;
     font-size: 24px;
-    text-align: center;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
